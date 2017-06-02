@@ -7,7 +7,11 @@
 ### EXAMPLE USAGE
     ```
     cd /path/to/project/
-    ./run_pipeline resources/chipdata_rma.expression_console.sst_rma.txt resources/prefiltered_gene_list.txt resources/patient_info_sheet.txt resources/valid_chips.txt output/testing/testing_results.txt
+    ./run_pipeline resources/chipdata_rma.expression_console.sst_rma.txt \
+        resources/prefiltered_gene_list.txt \
+        resources/patient_info_sheet.txt \
+        resources/valid_chips.txt \
+        output/testing/testing_results.txt
     ```
 
 ### TODO: add detailed instructions
