@@ -31,3 +31,7 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+# resources and output directories
+./resources/chipdata_rma.expression_console.sst_rma.txt
+./output
