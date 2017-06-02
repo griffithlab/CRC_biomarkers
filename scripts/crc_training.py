@@ -228,7 +228,7 @@ def main(argv):
 			clf.fit(expr_tr, label_tr)
 			params = parse_cv_result(clf)
 		else:
-			params = {'C': 1.2, #1.1 for 330 samples, 4.5 for 273 samples
+			params = {'C': 1.2,
 						'kernel': 'rbf',
 						'class_weight': None}
 
@@ -306,7 +306,7 @@ def main(argv):
 			clf.fit(expr_tr, convert_labels(label_tr))
 			params = parse_cv_result(clf)
 		else:
-			params = {'C': 1.1, #1.1 for 330 samples, 4.5 for 273 samples
+			params = {'C': 1.1,
 						'kernel': 'rbf'}
 
 		## train the model
