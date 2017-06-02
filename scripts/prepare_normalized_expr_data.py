@@ -35,7 +35,10 @@ def main(argv):
 	##modify header (sample_id.label)
 	for i in range(1,expr.shape[1]):
 		tmp = expr[0,i].split(" ")
-		sample = tmp[0] + "." + tmp[1].split(".")[0]
+		if len(tmp) == 1:
+			sample = tmp[0]
+		else:
+			sample = tmp[0] + "." + tmp[1].split(".")[0]
 		expr[0,i] = sample
 
 	##filter genes

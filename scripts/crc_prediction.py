@@ -100,7 +100,7 @@ def print_output(filename, summary):
 	writer.write("#sample_id\ttrue_label\tpredict_label\n")
 	for i in range(len(summary)):
 		writer.write("%s\t%s\t%s\n" % (summary[i,0], summary[i,1], 
-			'Negative' if summary[i,3]=='N' else 'Positive'))
+			'Negative' if summary[i,2]=='N' else 'Positive'))
 	writer.close()
 
 
