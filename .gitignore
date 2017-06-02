@@ -33,5 +33,5 @@ vignettes/*.pdf
 *.knit.md
 
 # resources and output directories
-./resources/chipdata_rma.expression_console.sst_rma.txt
-./output
+/resources/chipdata_rma.expression_console.sst_rma.txt
+/output/
