@@ -34,4 +34,5 @@ vignettes/*.pdf
 
 # resources and output directories
 /resources/chipdata_rma.expression_console.sst_rma.txt
-/output/
+/output/*
+!/output/.gitignore
